@@ -75,3 +75,11 @@ HOW TO USE:
 
  	dtbToolCM -s 2048 -d "htc,project-id = <" -o arch/arm/boot/dt.img -p scripts/dtc/ arch/arm/boot/
 
+### boot2miui
+
+#### 1.Install
+		cd mkbootimg_tools && ./install
+#### 2.Usage
+		boot2miui [my boot.img] [miui boot.img] [output_path]
+		or
+		./mybootimage2miui.sh [my boot.img] [miui boot.img] [output_path]
