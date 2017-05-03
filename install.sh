@@ -4,6 +4,9 @@
 # File Name: install.sh
 # Description:
 
+echo "Install boot2miui ..."
+
 echo "#boot2miui" >> ~/.bashrc
 echo "alias boot2miui='`pwd`/mybootimage2miui.sh'" >> ~/.bashrc 
 
+echo "done."
