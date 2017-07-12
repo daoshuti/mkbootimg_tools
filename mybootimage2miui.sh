@@ -95,9 +95,9 @@ then
 fi
 mkdir -p ${MYBOOT_PATH}
 mkdir -p ${MIUIBOOT_PATH}
-cp $1 ${MYBOOT_PATH}
+cp $1 ${MYBOOT_PATH}/boot.img
 echo "MYBOOT_PATH is ${MYBOOT_PATH}"
-cp $2 ${MIUIBOOT_PATH}
+cp $2 ${MIUIBOOT_PATH}/boot.img
 echo "MIUIBOOT_PATH is ${MIUIBOOT_PATH}"
 if [ ! $3 ]
 then
