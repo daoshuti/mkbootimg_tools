@@ -93,6 +93,7 @@ then
 	help
 	exit -1
 fi
+rm -rf ${MYBOOT_PATH} ${MIUIBOOT_PATH}
 mkdir -p ${MYBOOT_PATH}
 mkdir -p ${MIUIBOOT_PATH}
 cp $1 ${MYBOOT_PATH}/boot.img
